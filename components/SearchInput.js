@@ -7,6 +7,7 @@ export default function SearchInput({ searchValue = '' }) {
 
   return (
     <>
+      <div className={css.container}></div>
       <hr className={css.hrLine} />
       <div className={css.flexWrapper}>
         <label for="searchfield">

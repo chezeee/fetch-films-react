@@ -1,6 +1,8 @@
 body {
+  min-width: max-content;
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
+  padding: 0 calc(20px - (100vw - 100%)) 0 0;
   background: #26222d;
   color: rgb(229, 229, 230);
 }
