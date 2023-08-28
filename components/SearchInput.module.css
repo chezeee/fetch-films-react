@@ -1,18 +1,10 @@
-.container {
-  margin: 0 auto;
-  max-width: 1200px;
-  width: 100%;
-}
-
 .flexWrapper {
   display: flex;
   justify-content: space-evenly;
   max-width: 700px;
-  /* min-width: 570px; */
   margin: 0 auto;
+  padding: 0 5vw;
   align-items: center;
-  flex-wrap: wrap;
-  gap: 12px;
 }
 
 .flexWrapper label {
@@ -35,4 +27,11 @@
   padding: 0 10px;
   width: 400px;
   outline: none;
+}
+
+@media (max-width: 740px) {
+  .flexWrapper {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
 }

@@ -7,9 +7,6 @@
 
 .cardInfo {
   padding: 20px;
-  width: min-content;
-  min-width: 320px;
-  min-height: 460px;
 }
 
 .cardInfo a {
@@ -31,10 +28,22 @@
 
 .cardInfo img {
   border-radius: 10px;
-  width: 320px;
-  height: 460px;
+  width: 362px;
+  height: 543px;
 }
 
 .cover{
   object-fit: cover;
+}
+
+@media (max-width: 1100px) {
+  .gridWrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 740px) {
+  .gridWrapper {
+    grid-template-columns: 1fr;
+  }
 }
