@@ -1,0 +1,8 @@
+.noResults {
+  font-size: 1.2em;
+  font-family: 'Impact', 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 1.5px;
+  width: min-content;
+  white-space: nowrap;
+  margin: 50px auto;
+}

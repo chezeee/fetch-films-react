@@ -1,0 +1,28 @@
+.flexWrapper {
+  display: flex;
+  justify-content: space-evenly;
+  width: 800px;
+  margin: 30px auto;
+  align-items: center;
+}
+
+.flexWrapper label {
+  font-size: 1.2em;
+  white-space: nowrap;
+}
+
+.hrLine {
+  border: 1px solid rgb(118, 112, 126);
+}
+
+.searchField {
+  width: 300px;
+  background: rgb(235, 235, 235);
+  border: 1px solid rgb(198, 198, 198);
+  border-radius: 5px;
+  font-size: 1.2em;
+  height: 40px;
+  padding: 0 10px;
+  width: 500px;
+  outline: none;
+}
