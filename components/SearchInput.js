@@ -2,13 +2,12 @@ import css from './SearchInput.module.css';
 import { useState } from 'react';
 import FetchFilms from './FetchFilms';
 
-export default function SearchInput({ searchValue }) {
+export default function SearchInput({ searchValue = '' }) {
   const [value, setValue] = useState(searchValue);
-  console.log('Введенное значение в Input', value);
 
   return (
     <>
-      <hr className={css.hrLine}/>
+      <hr className={css.hrLine} />
       <div className={css.flexWrapper}>
         <label for="searchfield">
           Поиск фильма по названию:
