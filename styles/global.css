@@ -1,9 +1,16 @@
 body {
   min-width: min-content;
-  padding: 0 20px;
+  /* padding: 0 20px; */
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
-  padding: 0 calc(20px - (100vw - 100%)) 0 0;
+  padding: 0 calc(22px - (100vw - 100%)) 0 0;
   background: #26222d;
   color: rgb(229, 229, 230);
+  overflow: scroll;
+}
+
+@media (max-width: 1080px) {
+  body {
+    padding: 0;
+  }
 }
